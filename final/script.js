@@ -322,10 +322,10 @@ btnLogin.addEventListener('click', function (e) {
     }`;
     containerApp.style.opacity = 100;
     profileEl.src = currentAccount.image;
-    logoEl.style.position = 'static';
+    logoEl.style.position = 'relative';
     logoEl.style.width = '70px';
-    logoEl.style.top = 0;
-    logoEl.style.left = 0;
+    // logoEl.style.top = '10%';
+    logoEl.style.left = '50px';
     logoEl.style.transform = 'none';
 
     profileEl.style.display = 'block';

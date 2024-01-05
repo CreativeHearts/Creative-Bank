@@ -93,6 +93,13 @@ nav {
   transform: translate(-50%, -50%);
 }
 
+.bank-name h2 {
+  position: ;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  color: crimson;
+}
+
 @media (max-width: 42.18em) {
   .logo {
     width: 40%;
